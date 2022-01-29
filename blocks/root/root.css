@@ -1,0 +1,61 @@
+/*BODY*/
+
+/*Общие стили для body*/
+
+.page {
+  min-width: 1100px;
+  /* мы ещё не умеем делать мобильную версию сайта, */
+  /* поэтому выше установлена минимальная ширина страницы */
+  max-width: 1600px;
+  /* выше установили ограничение по максимальной ширине */
+  margin: 0 auto;
+  /* выше для экранов больше 1600px отцентрировали весь контент */
+  font-family: 'HelveticaNeueCyr', Arial, sans-serif;
+}
+
+.page__link {
+  transition: opacity 1s linear 0.1s;
+}
+
+.page__link:hover {
+  opacity: 0.5;
+}
+
+/*Общие стили для блока description*/
+
+.description {
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+/*Общие стили для блока digits*/
+
+.digits {
+  padding: 100px 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+/*Общие стили для блока digits*/
+
+.techniques {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+
+/*Общие стили для блока oakley*/
+
+.oakley {
+  padding-top: 160px;
+  display: flex;
+  justify-content: center;
+  background-color: #f2f2f2;
+}
+
+
