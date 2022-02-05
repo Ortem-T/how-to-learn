@@ -73,11 +73,11 @@
         <h2 class="section-title">Видео нa TED</h2>
         <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
         <div class="video__iframes">
-          <iframe class="video__iframe" width="515" height="316" src="https://www.youtube.com/embed/arj7oStGLkU"
+          <iframe class="video__iframe" src="https://www.youtube.com/embed/arj7oStGLkU"
           title="YouTube video player"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen></iframe>
-          <iframe class="video__iframe" width="515" height="316" src="https://www.youtube.com/embed/5MgBikgcWnY"
+          <iframe class="video__iframe" src="https://www.youtube.com/embed/5MgBikgcWnY"
           title="YouTube video player"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen></iframe>
@@ -149,9 +149,9 @@
         <article class="khan__container">
           <p class="khan__author">Салман Хан</p>
           <h2 class="khan__title">Весь мир — школа</h2>
-          <p class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру.
+          <blockquote class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру.
             Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду смогут получить
-            навыки и знания, которые приносят успех в школе, карьере и жизни.</p>
+            навыки и знания, которые приносят успех в школе, карьере и жизни.</blockquote>
           <p class="khan__quote-author">Джордж Лукас</p>
           <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
           <div class="khan__book-container">
@@ -211,12 +211,20 @@
       <section class="resources">
         <h2 class="section-title">Полезные ресурсы</h2>
         <p class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
-        <div class="resources__logo-zone">
-          <a class="resources__logo page__link" href="#"><img src="./images/logo/resources-arzamas.svg" alt="Арзамас"></a>
-          <a class="resources__logo page__link" href="#"><img src="./images/logo/resources-n1.svg" alt="Н+1"></a>
-          <a class="resources__logo page__link" href="#"><img src="./images/logo/resources-strelka.svg" alt="Стрелка"></a>
-          <a class="resources__logo page__link" href="#"><img src="./images/logo/resources-polka.svg" alt="Полка"></a>
-        </div>
+        <ul class="resources__logo-zone">
+          <li>
+            <a class="page__link" href="#"><img class="resources__logo" src="./images/logo/resources-arzamas.svg" alt="Арзамас"></a>
+          </li>
+          <li>
+            <a class="page__link" href="#"><img class="resources__logo" src="./images/logo/resources-n1.svg" alt="Н+1"></a>
+          </li>
+          <li>
+            <a class="page__link" href="#"><img class="resources__logo" src="./images/logo/resources-strelka.svg" alt="Стрелка"></a>
+          </li>
+          <li>
+            <a class="page__link" href="#"><img class="resources__logo" src="./images/logo/resources-polka.svg" alt="Полка"></a>
+          </li>
+        </ul>
       </section>
     </main>
     <footer class="footer">
